@@ -1,0 +1,77 @@
+{
+    "divs": [
+      {
+        "content": "📦 Updating Box Options",
+        "duration": 3000,
+        "showLoadingDots": true,
+        "style": {
+          "color": "white",
+          "background": "black",
+          "font-size": "18px",
+          "font-weight": "400"
+        }
+      },
+      {
+        "content": "⚙️ Updating Subscription Options",
+        "duration": 2000,
+        "showLoadingDots": true,
+        "style": {
+            "color": "white",
+            "background": "black",
+            "font-size": "18px",
+            "font-weight": "400"
+        }
+      },
+      {
+        "content": "🚩 Preparing Feature Flags",
+        "duration": 4000,
+        "showLoadingDots": true,
+        "style": {
+            "color": "white",
+            "background": "black",
+            "font-size": "18px",
+            "font-weight": "400"
+        }
+      },
+      {
+        "content": "✅ Setting Allow-List",
+        "duration": 3000,
+        "showLoadingDots": true,
+        "style": {
+            "color": "white",
+            "background": "black",
+            "font-size": "18px",
+            "font-weight": "400"
+        }
+      },
+      {
+        "content": "🛳 Triggering CircleCI Deployment",
+        "duration": 3000,
+        "showLoadingDots": true,
+        "style": {
+            "color": "white",
+            "background": "black",
+            "font-size": "18px",
+            "font-weight": "400"
+        }
+      },
+      {
+        "content": "🧪 Running Final E2E Tests",
+        "duration": 8000,
+        "showLoadingDots": true,
+        "style": {
+            "color": "white",
+            "background": "black",
+            "font-size": "20px",
+            "font-weight": "400"
+        }
+      },
+      {
+        "content": "1-3-5 LAUNCHED",
+        "duration": 2000,
+        "style": {
+        }
+      }
+    ]
+  }
+  

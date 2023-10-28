@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Axiforma;
+    src: url('../assets/fonts/Axiforma-Light.woff2') format("woff2"), url('../assets/fonts/Axiforma-Light.woff2') format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.footer {
+    font-family: Axiforma, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    background-color: #212930; /* Set your desired background color */
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer a {
+    color:#ffffff;
+    text-decoration: none;
+    font-family: Axiforma, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:16px;
+  }
+.Gb7db0d {
+    list-style: none;
+    padding-top: 20px;
+}
+.G424bc7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.Gb7db0d li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Ga388f9 {
+    cursor: pointer;
+}
+.G1b59f4 {
+    display: inline-block;
+}
+.G20ad7f {
+    font-family: Axiforma,Helvetica,sans-serif;
+}
+.Ga388f9:not(:last-child):after {
+    content: "";
+    padding: 0 10px;
+}

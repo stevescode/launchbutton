@@ -1,0 +1,55 @@
+{
+    "divs": [
+      {
+        "content": "5",
+        "duration": 1000
+      },
+      {
+        "content": "Publishing Recipe Steps",
+        "duration": 1000
+      },
+      {
+        "content": "4",
+        "duration": 1000
+      },
+      {
+        "content": "Configuring Webstock",
+        "duration": 1000
+      },
+      {
+        "content": "3",
+        "duration": 1000
+      },
+      {
+        "content": "Updating Cookbook",
+        "duration": 1000
+      },
+      {
+        "content": "2",
+        "duration": 1000
+      },
+      {
+        "content": "Updating forecast algos",
+        "duration": 1000
+      },
+      {
+        "content": "1",
+        "duration": 1000
+      },
+      {
+        "content": "Setting feature flags",
+        "duration": 1000
+      }
+      ,
+      {
+        "content": "0",
+        "duration": 1000
+      },
+      {
+        "content": "🎉 🎉 LAUNCHED 🎉 🎉",
+        "duration": 1000
+      }
+      
+    ]
+  }
+  
