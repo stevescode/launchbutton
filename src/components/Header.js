@@ -22,12 +22,12 @@ const Header = () => {
         </Navbar.Brand>
         <Nav className="mr-auto">
         <span class="header-nav-links">
-          <a class="header-nav-link" href="#">Choose Recipes</a>
-          <a class="header-nav-link" href="#">Free Food</a>
-          <a class="header-nav-link" href="#" to="/blog/sustainability">Sustainability</a>
-          <a class="header-nav-link" href="#" data-optimizely="desktop-header-help-link" to="/help-centre">Help</a>
+          <a class="header-nav-link" href="/#">Choose Recipes</a>
+          <a class="header-nav-link" href="/#">Free Food</a>
+          <a class="header-nav-link" href="/#" to="/blog/sustainability">Sustainability</a>
+          <a class="header-nav-link" href="/#" data-optimizely="desktop-header-help-link" to="/help-centre">Help</a>
           <span role="button" tabindex="0" class="header-nav-end">
-            <a class="header-nav-end-link" data-testing="myGoustoButtonLink" href="#">My Gousto</a>
+            <a class="header-nav-end-link" data-testing="myGoustoButtonLink" href="/#">My Gousto</a>
             <span role="button" tabindex="0" class="header-nav-end-button" data-testing="logoutButton">Logout</span>
             </span>
           </span>
