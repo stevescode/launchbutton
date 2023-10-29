@@ -37,7 +37,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="App d-flex justify-content-center align-items-center vh-100">
+      <div className="App">
         {currentDiv === config.divs.length - 1 && <ReactConfetti width={window.innerWidth} height={window.innerHeight} />}
         {showButton && <Button onClick={handleButtonClick} />}
         {showButton && <div className="warning-container"><p><strong>WARNING:</strong> Do not press this button until ready to launch 1-3-5!</p></div>}
@@ -47,14 +47,13 @@ function App() {
             {config.divs.map((div, index) => (
               <div
                 key={index}
-                className={`countdown-item ${index === currentDiv ? 'fade-in' : 'fade-out'} ${
-                  index === config.divs.length - 1 ? 'last-div' : ''
-                }`}
+                className={`${div.className} ${index === currentDiv ? 'fade-in' : 'fade-out'} ${index === config.divs.length - 1 ? 'last-div' : ''}`}
                 style={div.style}
               >
                 {div.showLoadingDots && <LoadingDots content={div.content} duration={div.duration} />}
                 {!div.showLoadingDots && <div>{div.content}</div>}
               </div>
+
             ))}
           </div>
         )}

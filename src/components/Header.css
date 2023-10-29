@@ -1,3 +1,9 @@
+:root {
+  --color-blue: #412DEE;
+  --color-red: #FF0032;
+  --color-dark: #212930;
+}
+
 @font-face {
   font-family: Axiforma;
   src: url('../assets/fonts/Axiforma-Medium.woff2') format("woff2"), url('../assets/fonts/Axiforma-Medium.woff2') format("woff");
@@ -6,7 +12,7 @@
 }
 
 .custom-navbar {
-  background-color: #ff0032;
+  background-color: var(--color-red);
   padding: 9px 30px;
   height: 60px;
 }
@@ -52,7 +58,7 @@
   color: #fff!important;
   border: 1px solid #fff;
   border-radius: 3px;
-  background-color: #ff0032;
+  background-color: var(--color-red);
   padding: 7px 15px;
   text-decoration: none;
   min-width: 0;

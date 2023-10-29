@@ -1,3 +1,9 @@
+:root {
+    --color-blue: #412DEE;
+    --color-red: #FF0032;
+    --color-dark: #212930;
+  }
+
 @font-face {
     font-family: Axiforma;
     src: url('../assets/fonts/Axiforma-Light.woff2') format("woff2"), url('../assets/fonts/Axiforma-Light.woff2') format("woff");
@@ -9,7 +15,7 @@
     font-family: Axiforma, Helvetica, sans-serif;
     font-weight: 400;
     font-size:16px;
-    background-color: #212930; /* Set your desired background color */
+    background-color: var(--color-dark);
     color: #fff;
     text-align: center;
     position: fixed;
