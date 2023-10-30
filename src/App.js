@@ -40,7 +40,7 @@ function App() {
       <div className="App">
         {currentDiv === config.divs.length - 1 && <ReactConfetti width={window.innerWidth} height={window.innerHeight} />}
         {showButton && <Button onClick={handleButtonClick} />}
-        {showButton && <div className="warning-container"><p><strong>WARNING:</strong> Do not press this button until ready to launch 1-3-5!</p></div>}
+        {showButton && <div className="warning-container"><p><strong>WARNING:</strong> Do not press this button until ready to launch 3 person boxes!</p></div>}
 
         {!showButton && (
           <div className="countdown-text">

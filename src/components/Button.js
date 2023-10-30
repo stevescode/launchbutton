@@ -14,7 +14,7 @@ const Button = ({ onClick }) => {
       <span className="shadow"></span>
       <span className="edge"></span>
       <span className="front">
-        {clicked ? 'Launching...' : 'Launch 1-3-5'}
+        {clicked ? 'Launching...' : 'Soft Launch'}
       </span>
     </div>
   );
