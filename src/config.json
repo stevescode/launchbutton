@@ -1,7 +1,7 @@
 {
     "divs": [
       {
-        "content": "📦 Updating Box Options",
+        "content": "📦 Configuring Box Options",
         "duration": 3000,
         "showLoadingDots": true,
         "className": "countdown-item",
@@ -25,7 +25,7 @@
         }
       },
       {
-        "content": "🚩 Preparing Feature Flags",
+        "content": "🚩 Setting Feature Flags",
         "duration": 3000,
         "showLoadingDots": true,
         "className": "countdown-item",
@@ -37,7 +37,7 @@
         }
       },
       {
-        "content": "✅ Setting Allow-List",
+        "content": "✅ Enabling Optimizely Roll Out",
         "duration": 3000,
         "showLoadingDots": true,
         "className": "countdown-item",
@@ -62,7 +62,7 @@
       },
       {
         "content": "🧪 Running Final E2E Tests",
-        "duration": 9000,
+        "duration": 6000,
         "showLoadingDots": true,
         "className": "countdown-item",
         "style": {
@@ -73,7 +73,52 @@
         }
       },
       {
-        "content": "3 PERSON BOXES (SOFT) LAUNCHED!",
+        "content": "5",
+        "duration": 2000,
+        "showLoadingDots": false,
+        "className": "countdown-item-number bulge-text special",
+        "style": {
+            "font-weight": "700"
+        }
+      },
+      {
+        "content": "4",
+        "duration": 2000,
+        "showLoadingDots": false,
+        "className": "countdown-item-number",
+        "style": {
+            "font-weight": "700"
+          }
+      },
+      {
+        "content": "3",
+        "duration": 2000,
+        "showLoadingDots": false,
+        "className": "countdown-item-number bulge-text special",
+        "style": {
+            "font-weight": "700"
+          }
+      },
+      {
+        "content": "2",
+        "duration": 2000,
+        "showLoadingDots": false,
+        "className": "countdown-item-number",
+        "style": {
+            "font-weight": "700"
+        }
+      },
+      {
+        "content": "1",
+        "duration": 5000,
+        "showLoadingDots": false,
+        "className": "countdown-item-number bulge-text special",
+        "style": {
+            "font-weight": "700"
+        }
+      },
+      {
+        "content": "1-3-5 LAUNCHED!",
         "duration": 2000,
         "className": "launch-party",
         "style": {

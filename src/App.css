@@ -41,7 +41,7 @@ body {
 }
 
 #root > div > div > div.fade-in.launch-party.last-div div {
-    font-size:6rem;
+    font-size:10rem;
     text-transform: uppercase;
     background-image: linear-gradient(
       -225deg,
@@ -91,6 +91,61 @@ body {
   position:absolute;
 }
 
+.countdown-item-number {
+  font-family: monospace;
+  background:transparent;
+  color:#000000;
+  border: none;
+  text-overflow: clip;
+  margin: -200px 200px;
+  width:600px;
+  position:absolute;
+  font-size:25rem;
+  text-align: center;
+  vertical-align: top;
+}
+
+@keyframes bulge {
+  0%, 100% {
+    transform: rotate(4deg) scale(1); /* Normal size */
+  }
+  50% {
+    transform: rotate(-4deg) scale(1.1); /* Enlarged size */
+  }
+}
+
+.bulge-text {
+  color: #000; /* Text color */
+  text-align: center;
+  animation: bulge 1s infinite ease-in-out!important; /* Apply the animation */
+}
+
+.special div {
+  background-image: linear-gradient(
+    -225deg,
+    var(--color-dark) 0%,
+    var(--color-blue) 29%,
+    var(--color-red) 67%,
+    var(--color-dark) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclipspecial 5s linear infinite;
+  display: inline-block;
+  text-align: center;
+}
+@keyframes textclipspecial {
+  to {
+    background-position: 20% center;
+  }
+}
+
 .fade-in {
   opacity: 1;
   animation: fadeInAnimation ease 1s;
@@ -113,7 +168,7 @@ body {
 
 .warning-container {
   display: block;
-  margin: 40px auto;
+  margin: 20px auto;
   text-align: center;
   background: var(--color-blue);
   color: #ffffff;
@@ -143,7 +198,54 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1600px) {
+  .countdown-text {
+    width: 1450px;
+    font-size:4rem;
+  }
+  
+  .countdown-item {
+    margin: 0 200px;
+    width: 1050px;
+  }
+
+  .countdown-item-number {
+    margin: -200px 200px 0;
+    width:1050px;
+  }
+
+}
+
+@media screen and (max-width: 1600px) {
+  .countdown-text {
+    width: 1450px;
+  }
+  
+  .countdown-item {
+    margin: 0 200px;
+    width: 1050px;
+  }
+
+  .countdown-item-number {
+    margin: -200px 200px 0;
+    width:1050px;
+  }
+
+}
+@media screen and (max-width: 1450px) {
+  #root > div > div > div.fade-in.launch-party.last-div div {
+    font-size:9rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #root > div > div > div.fade-in.launch-party.last-div div {
+    font-size:8rem;
+  }
+}
+  @media screen and (max-width: 1200px) {
+  .mobile-hidden1060 {
+    display: none !important;
+  }
   .countdown-text {
     width: 1050px;
   }
@@ -153,9 +255,17 @@ body {
     width: 850px;
   }
 
+  .countdown-item-number {
+    margin: -200px 100px 0;
+    width:850px;
+  }
+
 }
 
 @media screen and (max-width: 1060px) {
+    #root > div > div > div.fade-in.launch-party.last-div div {
+      font-size:7.5rem;
+    }
   .mobile-hidden1060 {
     display: none !important;
   }
@@ -168,6 +278,11 @@ body {
     margin: 0 100px;
     width: 660px;
   }
+
+  .countdown-item-number {
+    margin: -200px 100px 0;
+    width:660px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -176,7 +291,7 @@ body {
   }
   
   #root > div > div > div.fade-in.launch-party.last-div div {
-    font-size: 5rem;
+    font-size: 5.5rem;
   }
   
   .countdown-text {
@@ -186,6 +301,11 @@ body {
   .countdown-item {
     margin: 0 100px;
     width: 550px;
+  }
+
+  .countdown-item-number {
+    margin: -200px 100px 0;
+    width:550px;
   }
 }
 
@@ -202,6 +322,11 @@ body {
     margin: 0 100px;
     width: 400px;
   }
+
+  .countdown-item-number {
+    margin: -200px 100px 0;
+    width:400px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -216,6 +341,11 @@ body {
   .countdown-item {
     margin: 0 50px;
     width: 320px;
+  }
+
+  .countdown-item-number {
+    margin: -200px 50px 0;
+    width:320px;
   }
 }
 
@@ -238,6 +368,11 @@ body {
     margin: 0 20px;
     width: 280px;
   }
+
+  .countdown-item-number {
+    margin: -200px 20px 0;
+    width:280px;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -253,6 +388,11 @@ body {
     margin: 0 20px;
     width: 290px;
   }
+
+  .countdown-item-number {
+    margin: -200px 20px 0;
+    width:290px;
+  }
 }
 
 @media screen and (max-width: 280px) {
@@ -267,5 +407,10 @@ body {
   .countdown-item {
     margin: 0 20px;
     width: 180px;
+  }
+
+  .countdown-item-number {
+    margin: -200px 20px 0;
+    width:180px;
   }
 }

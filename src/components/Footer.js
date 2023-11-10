@@ -30,20 +30,9 @@ const Footer = () => {
             <a class="Ga8eb7b G8aa691 Gefef6b G5153a3 Gce18fe" href="/#" to="/blog" data-selid="footer-blog" title="Blog">Blog</a>
         </li>
         <li class="Ga388f9 G1b59f4 16px G20ad7f mobile-hidden1060">
-            <a class="Ga8eb7b G8aa691 Gefef6b G5153a3 Gce18fe" href="/#" to="https://cook.gousto.co.uk/studentdiscount/" data-selid="footer-student-discount" title="Student &amp; Graduate Discount">Student &amp; Graduate Discount</a>
-        </li>
-        <li class="Ga388f9 G1b59f4 16px G20ad7f mobile-hidden1060">
             <a class="Ga8eb7b G8aa691 Gefef6b G5153a3 Gce18fe" data-selid="footer-privacy-statement" title="Privacy Policy" href="/#">Privacy Policy</a>
         </li>
-        <li class="Ga388f9 G1b59f4 16px G20ad7f mobile-hidden1060">
-            <a class="Ga8eb7b G8aa691 Gefef6b G5153a3 Gce18fe" data-selid="footer-modern-slavery-statement" title="Modern Slavery" href="/#">Modern Slavery<span class="G12b86d"> Statement</span></a>
-        </li>
-        <li class="Ga388f9 G1b59f4 16px G20ad7f mobile-hidden1060">
-            <a class="Ga8eb7b G8aa691 Gefef6b G5153a3 Gce18fe" href="/#" to="/build/156829/UK_Tax_Strategy.pdf" data-selid="footer-uk-tax-strategy" title="UK Tax Strategy">UK Tax Strategy</a>
-        </li>
-        <li class="Ga388f9 G1b59f4 16px G20ad7f mobile-hidden1060">
-            <a class="Ga8eb7b G8aa691 Gefef6b G5153a3 Gce18fe" data-selid="footer-accessibility-statement" title="Accessibility Statement" href="/#">Accessibility Statement</a>
-        </li>
+
       </ul>
     </div>
   );
